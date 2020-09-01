@@ -25,9 +25,14 @@
           "width": 3000,
           "images": [
             {
-              "@id": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Leonardo_da_Vinci_-_Ginevra_de%27_Benci_-_Google_Art_Project.jpg/966px-Leonardo_da_Vinci_-_Ginevra_de%27_Benci_-_Google_Art_Project.jpg",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://iiif.io/api/presentation/2.0/example/fixtures/resources/page1-full.png", 
+                "@type": "dctypes:Image", 
+                "height": 11110, 
+                "width": 10483
+              },
               "on": "https://jstor-labs.github.io/iiif/manifests/Ginerva_de_Benci_1/canvas1"
             }
           ]
