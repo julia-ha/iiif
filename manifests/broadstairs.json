@@ -1,1 +1,61 @@
-{"@context":"http://iiif.io/api/presentation/2/context.json","@id":"https://iiif-v2.visual-essays.app/manifest/2a1c06ceed8f95ddb7b2d86dc5bd225a0c5b8ba651d3202b0f53bacaae3aaf69","@type":"sc:Manifest","attribution":"https://commons.wikimedia.org/wiki/File:Joss_Bay,_Broadstairs,_England_-_Aug_2008.jpg","label":"Joss Bay, Broadstairs, England","metadata":[{"label":"source","value":"https://upload.wikimedia.org/wikipedia/commons/6/6f/Joss_Bay%2C_Broadstairs%2C_England_-_Aug_2008.jpg"},{"label":"label","value":"Joss Bay, Broadstairs, England"},{"label":"date","value":"Aug 2008"},{"label":"attribution","value":"https://commons.wikimedia.org/wiki/File:Joss_Bay,_Broadstairs,_England_-_Aug_2008.jpg"}],"sequences":[{"@id":"https://iiif-v2.visual-essays.app/sequence/2a1c06ceed8f95ddb7b2d86dc5bd225a0c5b8ba651d3202b0f53bacaae3aaf69","@type":"sc:Sequence","canvases":[{"@id":"https://iiif-v2.visual-essays.app/canvas/2a1c06ceed8f95ddb7b2d86dc5bd225a0c5b8ba651d3202b0f53bacaae3aaf69","@type":"sc:Canvas","height":3000,"images":[{"@id":"https://upload.wikimedia.org/wikipedia/commons/6/6f/Joss_Bay%2C_Broadstairs%2C_England_-_Aug_2008.jpg","@type":"oa:Annotation","motivation":"sc:painting","on":"https://iiif-v2.visual-essays.app/canvas/2a1c06ceed8f95ddb7b2d86dc5bd225a0c5b8ba651d3202b0f53bacaae3aaf69","resource":{"@id":"https://free.iiifhosting.com/iiif/ba10a9e0039d6838f918d6f00cc92e437940778a73e0746df711b49ba6266207/full/full/0/default.jpg","@type":"dctypes:Image","format":"image/jpeg","height":1984,"service":{"@context":"http://iiif.io/api/image/2/context.json","@id":"https://free.iiifhosting.com/iiif/ba10a9e0039d6838f918d6f00cc92e437940778a73e0746df711b49ba6266207","profile":"https://iiif.io/api/image/2/level2.json"},"width":5394}}],"label":"Joss Bay, Broadstairs, England","otherContent":[{"@id":"https://annotations.visual-essays.app/ve/?target=2a1c06ceed8f95ddb7b2d86dc5bd225a0c5b8ba651d3202b0f53bacaae3aaf69","@type":"sc:AnnotationList"}],"width":3000}]}],"thumbnail":"https://free.iiifhosting.com/iiif/ba10a9e0039d6838f918d6f00cc92e437940778a73e0746df711b49ba6266207/full/150,/0/default.jpg"}
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://iiif-v2.visual-essays.app/manifest/2a1c06ceed8f95ddb7b2d86dc5bd225a0c5b8ba651d3202b0f53bacaae3aaf69",
+  "@type": "sc:Manifest",
+  "attribution": "https://commons.wikimedia.org/wiki/File:Joss_Bay,_Broadstairs,_England_-_Aug_2008.jpg",
+  "label": "Joss Bay, Broadstairs, England",
+  "metadata": [
+    {
+      "label": "source",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Joss_Bay%2C_Broadstairs%2C_England_-_Aug_2008.jpg"
+    },
+    { "label": "label", "value": "Joss Bay, Broadstairs, England" },
+    { "label": "date", "value": "Aug 2008" },
+    {
+      "label": "attribution",
+      "value": "https://commons.wikimedia.org/wiki/File:Joss_Bay,_Broadstairs,_England_-_Aug_2008.jpg"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://iiif-v2.visual-essays.app/sequence/2a1c06ceed8f95ddb7b2d86dc5bd225a0c5b8ba651d3202b0f53bacaae3aaf69",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://iiif-v2.visual-essays.app/canvas/2a1c06ceed8f95ddb7b2d86dc5bd225a0c5b8ba651d3202b0f53bacaae3aaf69",
+          "@type": "sc:Canvas",
+          "height": 3000,
+          "images": [
+            {
+              "@id": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Joss_Bay%2C_Broadstairs%2C_England_-_Aug_2008.jpg",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://iiif-v2.visual-essays.app/canvas/2a1c06ceed8f95ddb7b2d86dc5bd225a0c5b8ba651d3202b0f53bacaae3aaf69",
+              "resource": {
+                "@id": "https://free.iiifhosting.com/iiif/ba10a9e0039d6838f918d6f00cc92e437940778a73e0746df711b49ba6266207/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1984,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://free.iiifhosting.com/iiif/ba10a9e0039d6838f918d6f00cc92e437940778a73e0746df711b49ba6266207",
+                  "profile": "https://iiif.io/api/image/2/level2.json"
+                },
+                "width": 5394
+              }
+            }
+          ],
+          "label": "Joss Bay, Broadstairs, England",
+          "otherContent": [
+            {
+              "@id": "https://annotations.visual-essays.app/ve/?target=2a1c06ceed8f95ddb7b2d86dc5bd225a0c5b8ba651d3202b0f53bacaae3aaf69",
+              "@type": "sc:AnnotationList"
+            }
+          ],
+          "width": 3000
+        }
+      ]
+    }
+  ],
+  "thumbnail": "https://free.iiifhosting.com/iiif/ba10a9e0039d6838f918d6f00cc92e437940778a73e0746df711b49ba6266207/full/150,/0/default.jpg"
+}
