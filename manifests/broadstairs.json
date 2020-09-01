@@ -31,18 +31,7 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "on": "https://iiif-v2.visual-essays.app/canvas/2a1c06ceed8f95ddb7b2d86dc5bd225a0c5b8ba651d3202b0f53bacaae3aaf69",
-              "resource": {
-                "@id": "https://free.iiifhosting.com/iiif/ba10a9e0039d6838f918d6f00cc92e437940778a73e0746df711b49ba6266207/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "height": 1984,
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://free.iiifhosting.com/iiif/ba10a9e0039d6838f918d6f00cc92e437940778a73e0746df711b49ba6266207",
-                  "profile": "https://iiif.io/api/image/2/level2.json"
-                },
-                "width": 5394
-              }
+              "width": 5394
             }
           ],
           "label": "Joss Bay, Broadstairs, England",
