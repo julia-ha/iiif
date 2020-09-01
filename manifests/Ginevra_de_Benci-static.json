@@ -2,6 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://jstor-labs.github.io/iiif/manifests/Ginerva_de_Benci_1.json",
   "@type": "sc:Manifest",
+  "license": "Public domain",
   "attribution": "Wikimedia Commons and Google Art Project",
   "label": "Ginevra de' Benci, painting by Leonardo da Vinci",
   "description": "Ginevra de' Benci is a portrait painting by Leonardo da Vinci of the 15th-century Florentine aristocrat Ginevra de' Benci (born c.  1458). The oil-on-wood portrait was acquired by the National Gallery of Art in Washington, D.C. in 1967. The sum of US$5 million—an absolute record price at the time—came from the Ailsa Mellon Bruce Fund and was paid to the Princely Family of Liechtenstein. It is the only painting by Leonardo on public view in the Americas.",
