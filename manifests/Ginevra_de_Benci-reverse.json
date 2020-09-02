@@ -31,12 +31,12 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "http://free.iiifhosting.com/iiif/a50b36d92153db8db436cff50ab37345ad482823e756d48585829e9a20cdc2c3/full/full/0/default.jpg",
+                "@id": "https://free.iiifhosting.com/iiif/a50b36d92153db8db436cff50ab37345ad482823e756d48585829e9a20cdc2c3/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "height": 10683,
                 "width": 10315,
                 "service": {
-                  "@id": "http://free.iiifhosting.com/iiif/a50b36d92153db8db436cff50ab37345ad482823e756d48585829e9a20cdc2c3",
+                  "@id": "https://free.iiifhosting.com/iiif/a50b36d92153db8db436cff50ab37345ad482823e756d48585829e9a20cdc2c3",
                   "profile": "https://iiif.io/api/image/2/level2.json"
                 }
               },
