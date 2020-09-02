@@ -6,8 +6,10 @@
 - [Manifest using Labs IIIF image service](https://jstor-labs.github.io/iiif/manifests/Ginevra_de_Benci-labs.json)
 - [Manifest using 3rd party IIIF image service](https://jstor-labs.github.io/iiif/manifests/Ginevra_de_Benci-iiifhosting.json)
 
-## IIIF Manifest with Annotations
+## Visual essay
 
-- [Using Labs web annotation service](https://jstor-labs.github.io/iiif/manifests/Ginevra_de_Benci-labs-annotations.json)
+[Ginevra de' Benci](https://dev.visual-essays.app/essay/jstor-labs/iiif/ginevra-de-benci)
 
+## Annotations
 
+The sample essay has been annotated ...

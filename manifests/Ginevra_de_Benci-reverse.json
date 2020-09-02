@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://jstor-labs.github.io/iiif/manifests/Ginerva_de_Benci-reverse.json",
+  "@type": "sc:Manifest",
+  "license": "Public domain",
+  "label": "Wreath of Laurel, Palm, and Juniper with a Scroll inscribed Virtutem Forum Decorat [reverse]",
+  "attribution": "Wikimedia Commons and Google Art Project",
+  "description": "The imagery and text on the reverse of the panel of the Ginevra de' Benci painting. The reverse is decorated with a juniper sprig encircled by a wreath of laurel and palm and is memorialized by the phrase Virtvtem Forma Decorat (\"Virtue Adorns Beauty\").",
+  "thumbnail": "https://free.iiifhosting.com/iiif/a50b36d92153db8db436cff50ab37345ad482823e756d48585829e9a20cdc2c3/full/150,/0/default.jpg",
+  "metadata": [
+    {
+      "label": "source",
+      "value": "https://upload.wikimedia.org/wikipedia/commons/1/12/Leonardo_da_Vinci_-_Wreath_of_Laurel%2C_Palm%2C_and_Juniper_with_a_Scroll_inscribed_Virtutem_Forum_Decorat_%28reverse%29_-_Google_Art_Project.jpg"
+    },
+    { "label": "author", "value": "Leonardo da Vinci" },
+    { "label": "date", "value": "1474 - 1478" },
+    { "label": "Image hosting service", "value": "iiifhosting.com IIIF image service" }
+  ],
+  "sequences": [
+    {
+      "@id": "https://jstor-labs.github.io/iiif/manifests/Ginerva_de_Benci-reverse/sequence1",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://jstor-labs.github.io/iiif/manifests/Ginerva_de_Benci-reverse/canvas1",
+          "@type": "sc:Canvas",
+          "height": 3000,
+          "width": 3000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://free.iiifhosting.com/iiif/a50b36d92153db8db436cff50ab37345ad482823e756d48585829e9a20cdc2c3/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 10683,
+                "width": 10315,
+                "service": {
+                  "@id": "http://free.iiifhosting.com/iiif/a50b36d92153db8db436cff50ab37345ad482823e756d48585829e9a20cdc2c3",
+                  "profile": "https://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://jstor-labs.github.io/iiif/manifests/Ginerva_de_Benci-reverse/canvas1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
