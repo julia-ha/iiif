@@ -1,3 +1,5 @@
+<a href="https://dev.visual-essays.app/essay/jstor-labs/iiif/ginevra-de-benci"><img src="https://jstor-labs.github.io/visual-essays/images/ve-button.png"></a>
+
 # Ginevra de' Benci
  
  <param ve-image iiif primary manifest="https://jstor-labs.github.io/iiif/manifests/Ginevra_de_Benci-iiifhosting.json">
