@@ -12,7 +12,7 @@
 - [Mirador (v3)](https://projectmirador.org/) ([v2](https://projectmirador.org/demo/)) - IIIF viewer
 - [Universal Viewer](https://universalviewer.io/) - IIIF viewer
 - [OpenSeadragon](https://openseadragon.github.io/) - Image viewer javascript library, not IIIF specific
-- [Annatorious](https://recogito.github.io/annotorious/) (Github](https://github.com/recogito/annotorious))- Annotation tool for generating annotations compatible with [W3C Web Annotation Data Model](https://www.w3.org/TR/annotation-model/) and [Protocol](https://www.w3.org/TR/annotation-protocol/)
+- [Annatorious](https://recogito.github.io/annotorious/) ([Github](https://github.com/recogito/annotorious))- Annotation tool for generating annotations compatible with [W3C Web Annotation Data Model](https://www.w3.org/TR/annotation-model/) and [Protocol](https://www.w3.org/TR/annotation-protocol/)
 
 ### APIs
 
@@ -22,7 +22,7 @@
 ### Demos and other useful info
 
 - [awesome-iiif](https://github.com/IIIF/awesome-iiif) - A list of lists of awesome IIIF resources
-- [kanzaki](https://www.kanzaki.com/) - Some great IIIF examples and demos by [Masahide Kanzaki](https://www.kanzaki.com/info/who)
+- [kanzaki](https://www.kanzaki.com/) - Some great [IIIF examples](https://www.kanzaki.com/works/2016/pub/image-annotator) and demos by [Masahide Kanzaki](https://www.kanzaki.com/info/who)
 - [IIIF manifest validator](https://iiif.io/api/presentation/validator/service/)
 
 ## IIIF Presentation Manifest examples
@@ -66,7 +66,7 @@ One easy method for manually creating and hosting an IIIF manifest is to use Git
 
 JSTOR Labs has also created a service for generating and storing manifests.
 
-*Post JSON docment to:* `https://iiif.visual-essays.app/presentation/create`  
+*Post JSON document to:* `https://iiif.visual-essays.app/presentation/create`  
 *General request document structure:*
 ```json
 {
@@ -130,7 +130,7 @@ JSTOR Labs has also created a service for generating and storing manifests.
 
 #### Labs IIIF service (option 2)
 
-*Post JSON docment to:* `https://iiif-v2.visual-essays.app/manifest/`
+*Post JSON document to:* `https://iiif-v2.visual-essays.app/manifest/`
 *General request document structure:*
 ```json
 {
