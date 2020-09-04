@@ -28,14 +28,23 @@ TODO
 
 ### Creating a manifest
 
+IIIF presentation manifests can be created manually or using an automated service.  In either case
+the resulting JSON file needs to be accessible via a public URL.
+
 #### Manually
+
+One easy method for manually creating and hosting an IIIF manifest is to use Github.  Some of the example manifests used in this document use this approach and can be seen here:
+
+- [Manifest using static image](/manifests/Ginevra_de_Benci-static.json)
+- [Manifest using Labs IIIF image service](/manifests/Ginevra_de_Benci-labs.json)
+- [Manifest using 3rd party IIIF image service](/manifests/Ginevra_de_Benci-iiifhosting.json)
 
 #### Labs IIIF service (option 1)
 
-**Post JSON docment to:** `https://iiif.visual-essays.app/presentation/create`
+JSTOR Labs has also created a service for generating and storing manifests.
 
-**General request document structure:**
-
+***Post JSON docment to:*** `https://iiif.visual-essays.app/presentation/create`  
+***General request document structure:***
 ```json
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -62,8 +71,7 @@ TODO
 }
 ```
 
-**Example using the Genevra image:**
-
+***Example using the Wikimedia Commons Ginevra de' Benci image:***
 ```json
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -95,15 +103,12 @@ TODO
     }]
 }
 ```
-
-**Generated manifest:** https://iiif.visual-essays.app/presentation/e39d51b68f1d98e822a5783cec6635fc0e3746dfef532c4fc4292070/manifest
+***Generated manifest:*** https://iiif.visual-essays.app/presentation/e39d51b68f1d98e822a5783cec6635fc0e3746dfef532c4fc4292070/manifest
 
 #### Labs IIIF service (option 2)
 
-**Post JSON docment to:** `https://iiif-v2.visual-essays.app/manifest/`
-
-**General request document structure:**
-
+***Post JSON docment to:*** `https://iiif-v2.visual-essays.app/manifest/`
+***General request document structure:***
 ```json
 {
     "url": "",
@@ -112,8 +117,7 @@ TODO
 }
 ```
 
-**Example using the Genevra image:**
-
+***Example using the Wikimedia Commons Ginevra de' Benci image:***
 ```json
 {
     "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Leonardo_da_Vinci_-_Ginevra_de%27_Benci_-_Google_Art_Project.jpg",
@@ -129,8 +133,7 @@ TODO
     "Image hosting service": "JSTOR Labs"
 }
 ```
-
-**Generated manifest:** https://iiif-v2.visual-essays.app/manifest/1f1bb3168b5785e2735a980d7e7fb99173fcf238d5526aa29872963a4ffd3750
+***Generated manifest:*** https://iiif-v2.visual-essays.app/manifest/1f1bb3168b5785e2735a980d7e7fb99173fcf238d5526aa29872963a4ffd3750
 
 #### Dynamically, using ve-image tag within Visual Essays tool
 
