@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://jstor-labs.github.io/iiif-example/manifests/Ginerva_de_Benci-reverse.json",
+  "@id": "https://jstor-labs.github.io/iiif/manifests/Ginerva_de_Benci-reverse.json",
   "@type": "sc:Manifest",
   "license": "Public domain",
   "label": "Wreath of Laurel, Palm, and Juniper with a Scroll inscribed Virtutem Forum Decorat [reverse]",
@@ -18,11 +18,11 @@
   ],
   "sequences": [
     {
-      "@id": "https://jstor-labs.github.io/iiif-example/manifests/Ginerva_de_Benci-reverse/sequence1",
+      "@id": "https://jstor-labs.github.io/iiif/manifests/Ginerva_de_Benci-reverse/sequence1",
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "https://jstor-labs.github.io/iiif-example/manifests/Ginerva_de_Benci-reverse/canvas1",
+          "@id": "https://jstor-labs.github.io/iiif/manifests/Ginerva_de_Benci-reverse/canvas1",
           "@type": "sc:Canvas",
           "height": 3000,
           "width": 3000,
@@ -40,7 +40,7 @@
                   "profile": "https://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://jstor-labs.github.io/iiif-example/manifests/Ginerva_de_Benci-reverse/canvas1"
+              "on": "https://jstor-labs.github.io/iiif/manifests/Ginerva_de_Benci-reverse/canvas1"
             }
           ]
         }

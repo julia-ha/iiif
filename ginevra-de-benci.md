@@ -1,4 +1,4 @@
-<a href="https://dev.visual-essays.app/essay/jstor-labs/iiif-example/ginevra-de-benci"><img src="https://jstor-labs.github.io/visual-essays/images/ve-button.png"></a>
+<a href="https://dev.visual-essays.app/essay/jstor-labs/iiif/ginevra-de-benci"><img src="https://jstor-labs.github.io/visual-essays/images/ve-button.png"></a>
 
 <param ve-config banner="https://free.iiifhosting.com/iiif/a50b36d92153db8db436cff50ab37345ad482823e756d48585829e9a20cdc2c3/pct:0,52,100,38/full/0/default.jpg" layout="vtl" title="Ginevra de' Benci" author="Leonardo da Vinci">
 

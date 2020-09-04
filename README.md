@@ -1,6 +1,6 @@
 # IIIF resources and examples
 
-This repository and README provides an aggregation of various IIIF related links and resources for working with IIIF in JSTOR Labs projects. 
+This repository and README provides an aggregation of various links and resources for working with the International Image Interoperability Framework (IIIF) in JSTOR Labs projects. 
 
 ## Resources
 
@@ -12,6 +12,7 @@ This repository and README provides an aggregation of various IIIF related links
 
 ### Tools and sites
 
+- [iiif.io] - IIIF main site
 - [Mirador (v3)](https://projectmirador.org/) ([v2](https://projectmirador.org/demo/)) - IIIF viewer
 - [Universal Viewer](https://universalviewer.io/) - IIIF viewer
 - [OpenSeadragon](https://openseadragon.github.io/) - Image viewer javascript library, not IIIF specific
@@ -36,9 +37,9 @@ This section includes some manually generated IIIF manifests.  One example shows
 
 ### v2.1.1
 
-- [Manifest using static image](https://jstor-labs.github.io/iiif-example/manifests/Ginevra_de_Benci-static.json) ([Github](manifests/Ginevra_de_Benci-static.json))
-- [Manifest using Labs IIIF image service](https://jstor-labs.github.io/iiif-example/manifests/Ginevra_de_Benci-labs.json) ([Github](manifests/Ginevra_de_Benci-labs.json))
-- [Manifest using 3rd party IIIF image service](https://jstor-labs.github.io/iiif-example/manifests/Ginevra_de_Benci-iiifhosting.json) ([Github](manifests/Ginevra_de_Benci-iiifhosting.json))
+- [Manifest using static image](https://jstor-labs.github.io/iiif/manifests/Ginevra_de_Benci-static.json) ([Github](manifests/Ginevra_de_Benci-static.json))
+- [Manifest using Labs IIIF image service](https://jstor-labs.github.io/iiif/manifests/Ginevra_de_Benci-labs.json) ([Github](manifests/Ginevra_de_Benci-labs.json))
+- [Manifest using 3rd party IIIF image service](https://jstor-labs.github.io/iiif/manifests/Ginevra_de_Benci-iiifhosting.json) ([Github](manifests/Ginevra_de_Benci-iiifhosting.json))
 
 ### v3
 
@@ -46,11 +47,11 @@ TODO
 
 ## Visual essay example
 
-This [visual essay example](https://dev.visual-essays.app/essay/jstor-labs/iiif-example/ginevra-de-benci) demonstrates the use of an IIIF manifest (using the Wikimedia Commons Ginevra de' Benci image) in an interactive web page.  This visual essay demo incorporates image annotations served from the Labs annotation server and also shows a few other visual essay features such as the use of maps and Linked Open Data (LOD) from [Wikidata](https://www.wikidata.org).
+This [visual essay example](https://dev.visual-essays.app/essay/jstor-labs/iiif/ginevra-de-benci) demonstrates the use of an IIIF manifest (using the Wikimedia Commons Ginevra de' Benci image) in an interactive web page.  This visual essay demo incorporates image annotations served from the Labs annotation server and also shows a few other visual essay features such as the use of maps and Linked Open Data (LOD) from [Wikidata](https://www.wikidata.org).
 
 The visual essay tool uses a Vue.js single file component that can be seen at [OpenSeadragonViewer.vue](https://github.com/JSTOR-Labs/ve-components/blob/develop/components/ImageViewer/OpenSeadragonViewer.vue).  This component uses OpenSeadragon with the Annatorious plugin.  Annotations can be created, updated and deleted from within the tool.  The component also incorporates an annotations navigation tool (inspired by the [Storiiies](https://storiiies.cogapp.com/) site).
 
-- [Visual essay Markdown source](ginevra-de-benci.md) ([raw](https://raw.githubusercontent.com/JSTOR-Labs/iiif-example/develop/ginevra-de-benci.md))
+- [Visual essay Markdown source](ginevra-de-benci.md) ([raw](https://raw.githubusercontent.com/JSTOR-Labs/iiif/develop/ginevra-de-benci.md))
 
 ## Annotations
 
