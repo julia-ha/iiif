@@ -2,9 +2,28 @@
 
 ## Resources
 
-- **IIIF Presentation API** ([2.1.1](https://iiif.io/api/presentation/2.1/)) ([3.0](https://iiif.io/api/presentation/3.0/))
-- **IIIF Image API** ([2.1.1](https://iiif.io/api/image/2.1/)) ([3.0](https://iiif.io/api/image/3.0/))
-- [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/)
+### Specifications
+- **IIIF Presentation** ([2.1.1](https://iiif.io/api/presentation/2.1/)) ([3.0](https://iiif.io/api/presentation/3.0/))
+- **IIIF Image** ([2.1.1](https://iiif.io/api/image/2.1/)) ([3.0](https://iiif.io/api/image/3.0/))
+- **W3C** [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/) and [protocol](https://www.w3.org/TR/annotation-protocol/)
+
+### Tools and sites
+
+- [Mirador (v3)](https://projectmirador.org/) [v2](https://projectmirador.org/demo/) - IIIF viewer
+- [Universal Viewer](https://universalviewer.io/) - IIIF viewer
+- [OpenSeadragon](https://openseadragon.github.io/) - Image viewer javascript library, not IIIF specific
+- [Annatorious](https://recogito.github.io/annotorious/) (Github](https://github.com/recogito/annotorious))- Annotation tool for generating annotations compatible with [W3C Web Annotation Data Model](https://www.w3.org/TR/annotation-model/) and [Protocol](https://www.w3.org/TR/annotation-protocol/)
+
+### APIs
+
+- [OpenSeadragon](https://openseadragon.github.io/docs/)
+- [Annatorious (Openseadragon plugin)](https://recogito.github.io/annotorious/api-docs/osd-plugin/) 
+
+### Demos and other useful info
+
+- [awesome-iiif](https://github.com/IIIF/awesome-iiif) - A list of lists of awesome IIIF resources
+- [kanzaki](https://www.kanzaki.com/) - Some great IIIF examples and demos by [Masahide Kanzaki](https://www.kanzaki.com/info/who)
+- [IIIF manifest validator](https://iiif.io/api/presentation/validator/service/)
 
 ## IIIF Presentation Manifest examples
 
@@ -31,7 +50,7 @@ TODO
 IIIF presentation manifests can be created manually or using an automated service.  In either case
 the resulting JSON file needs to be accessible via a public URL.
 
-#### Manually
+#### Manual manifest generation and hosting
 
 One easy method for manually creating and hosting an IIIF manifest is to use Github.  Some of the example manifests used in this document use this approach and can be seen here:
 
