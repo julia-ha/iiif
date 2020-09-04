@@ -9,7 +9,7 @@
 
 ### Tools and sites
 
-- [Mirador (v3)](https://projectmirador.org/) [v2](https://projectmirador.org/demo/) - IIIF viewer
+- [Mirador (v3)](https://projectmirador.org/) ([v2](https://projectmirador.org/demo/)) - IIIF viewer
 - [Universal Viewer](https://universalviewer.io/) - IIIF viewer
 - [OpenSeadragon](https://openseadragon.github.io/) - Image viewer javascript library, not IIIF specific
 - [Annatorious](https://recogito.github.io/annotorious/) (Github](https://github.com/recogito/annotorious))- Annotation tool for generating annotations compatible with [W3C Web Annotation Data Model](https://www.w3.org/TR/annotation-model/) and [Protocol](https://www.w3.org/TR/annotation-protocol/)
@@ -29,9 +29,9 @@
 
 ### v2.1.1
 
-- [Manifest using static image](https://jstor-labs.github.io/iiif-example/manifests/Ginevra_de_Benci-static.json)
-- [Manifest using Labs IIIF image service](https://jstor-labs.github.io/iiif-example/manifests/Ginevra_de_Benci-labs.json)
-- [Manifest using 3rd party IIIF image service](https://jstor-labs.github.io/iiif-example/manifests/Ginevra_de_Benci-iiifhosting.json)
+- [Manifest using static image](https://jstor-labs.github.io/iiif-example/manifests/Ginevra_de_Benci-static.json) ([Github](manifests/Ginevra_de_Benci-static.json))
+- [Manifest using Labs IIIF image service](https://jstor-labs.github.io/iiif-example/manifests/Ginevra_de_Benci-labs.json) ([Github](manifests/Ginevra_de_Benci-labs.json))
+- [Manifest using 3rd party IIIF image service](https://jstor-labs.github.io/iiif-example/manifests/Ginevra_de_Benci-iiifhosting.json) ([Github](manifests/Ginevra_de_Benci-iiifhosting.json))
 
 ### v3
 
@@ -41,7 +41,7 @@ TODO
 
 Use of IIIF manifests in a JSTOR Labs [visual essay](https://dev.visual-essays.app/essay/jstor-labs/iiif-example/ginevra-de-benci) using the Wikimedia Commons Ginevra de' Benci image.
 
-- [Visual essay Markdown source](ginevra-de-benci.md)
+- [Visual essay Markdown source](ginevra-de-benci.md) ([raw](https://raw.githubusercontent.com/JSTOR-Labs/iiif-example/develop/ginevra-de-benci.md))
 
 ## Annotations
 
