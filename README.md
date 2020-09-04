@@ -13,6 +13,7 @@
 - [Universal Viewer](https://universalviewer.io/) - IIIF viewer
 - [OpenSeadragon](https://openseadragon.github.io/) - Image viewer javascript library, not IIIF specific
 - [Annatorious](https://recogito.github.io/annotorious/) ([Github](https://github.com/recogito/annotorious))- Annotation tool for generating annotations compatible with [W3C Web Annotation Data Model](https://www.w3.org/TR/annotation-model/) and [Protocol](https://www.w3.org/TR/annotation-protocol/)
+- [iiifhosting.com](https://www.iiifhosting.com/) - Provides IIIF image hosting services.  A limited free option is available with tiered premium levels.  This service is currently used by an experimental version of an automated manifest generation service in use by JSTOR Labs.
 
 ### APIs
 
@@ -45,7 +46,7 @@ Use of IIIF manifests in a JSTOR Labs [visual essay](https://dev.visual-essays.a
 
 ## Annotations
 
-- Labs annotation server endpoint: [https://annotations.visual-essay/](https://annotations.visual-essay) ([Github](https://github.com/JSTOR-Labs/ve-annotations), adapted from[azaroth42/MangoServer](https://github.com/azaroth42/MangoServer))
+- Labs annotation server endpoint: [https://annotations.visual-essay/](https://annotations.visual-essay) ([Github](https://github.com/JSTOR-Labs/ve-annotations)), adapted from [azaroth42/MangoServer](https://github.com/azaroth42/MangoServer)
 - [Sample annotations for Ginevra image in visual essay](https://annotations.visual-essays.app/ve/?target=https%3A%2F%2Fvisual-essays.app%2Fjstor-labs%2Fve-contentginevra-de-benci%2F3d4b78a087e203f982c66c0e621b33ab7d76de5680e8f8b22e4dfe0f5fd5667a)
 - Labs annotation admin tool - TBD
 
