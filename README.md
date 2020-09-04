@@ -12,7 +12,7 @@ This repository and README provides an aggregation of various links and resource
 
 ### Tools and sites
 
-- [iiif.io] - IIIF main site
+- [iiif.io](https://iiif.io/) - IIIF main site
 - [Mirador (v3)](https://projectmirador.org/) ([v2](https://projectmirador.org/demo/)) - IIIF viewer
 - [Universal Viewer](https://universalviewer.io/) - IIIF viewer
 - [OpenSeadragon](https://openseadragon.github.io/) - Image viewer javascript library, not IIIF specific
@@ -56,8 +56,16 @@ The visual essay tool uses a Vue.js single file component that can be seen at [O
 ## Annotations
 
 - Labs annotation server endpoint: [https://annotations.visual-essay/](https://annotations.visual-essay) ([Github](https://github.com/JSTOR-Labs/ve-annotations)), adapted from [azaroth42/MangoServer](https://github.com/azaroth42/MangoServer)
-- [Sample annotations for Ginevra image in visual essay](https://annotations.visual-essays.app/ve/?target=https%3A%2F%2Fvisual-essays.app%2Fjstor-labs%2Fve-contentginevra-de-benci%2F3d4b78a087e203f982c66c0e621b33ab7d76de5680e8f8b22e4dfe0f5fd5667a)
+- [Sample annotations for Ginevra image in visual essay](https://annotations.visual-essays.app/ve/?target=https%3A%2F%2Fvisual-essays.app%2Fjstor-labs%2Fiiif%2Fginevra-de-benci%2F3d4b78a087e203f982c66c0e621b33ab7d76de5680e8f8b22e4dfe0f5fd5667a)
 - Labs annotation admin tool - TBD
+
+### Annotation target
+
+Each annotation added to the annotation store is assigned a `target` that uniquely identifies the image in the context of the parent essay.  The target is created by our image component when interacting (loading, saving, etc) with the annotation server.  The format of the target is a URI constructed from the visual essays domain `https://visual-essays.app` and a path that includes the `Github account`, `Github repository`, and `Github file path` associated with the essay and a sha256 hash of the image URL.
+
+Using the Wikimedia Commons Ginevra de' Benci image from our example essay as an example, the annotation target would be `https://visual-essays.app/jstor-labs/iiif/ginevra-de-benci/3d4b78a087e203f982c66c0e621b33ab7d76de5680e8f8b22e4dfe0f5fd5667a`
+
+When querying the annotations server for annotations for a specific essay/image combination the `target` query argument is added to the request with the (urlencoded) target value as defined above.  Again, using the Ginerva image from our example essay, the query to the annotations server would be `https://annotations.visual-essays.app/ve/?target=https%3A%2F%2Fvisual-essays.app%2Fjstor-labs%2Fiiif%2Fginevra-de-benci%2F3d4b78a087e203f982c66c0e621b33ab7d76de5680e8f8b22e4dfe0f5fd5667a`
 
 ### Creating a manifest
 
