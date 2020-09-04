@@ -45,7 +45,9 @@ Use of IIIF manifests in a JSTOR Labs [visual essay](https://dev.visual-essays.a
 
 ## Annotations
 
-TODO
+- Labs annotation server endpoint: [https://annotations.visual-essay/](https://annotations.visual-essay)
+- [Sample annotations for Ginevra image in visual essay](https://annotations.visual-essays.app/ve/?target=https%3A%2F%2Fvisual-essays.app%2Fjstor-labs%2Fve-contentginevra-de-benci%2F3d4b78a087e203f982c66c0e621b33ab7d76de5680e8f8b22e4dfe0f5fd5667a)
+- Labs annotation admin tool - TBD
 
 ### Creating a manifest
 
