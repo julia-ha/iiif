@@ -2,7 +2,7 @@
 
 ## Resources
 
-- **IIIF Presentation API** ([2.1.1](https://iiif.io/api/presentation/2.1/)() ([3.0](https://iiif.io/api/presentation/3.0/))
+- **IIIF Presentation API** ([2.1.1](https://iiif.io/api/presentation/2.1/)) ([3.0](https://iiif.io/api/presentation/3.0/))
 - **IIIF Image API** ([2.1.1](https://iiif.io/api/image/2.1/)) ([3.0](https://iiif.io/api/image/3.0/))
 - [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/)
 
@@ -20,7 +20,7 @@ TODO
 
 ## Visual essay example
 
-[Ginevra de' Benci](https://dev.visual-essays.app/essay/jstor-labs/iiif-example/ginevra-de-benci) ([vertical layout](https://dev.visual-essays.app/essay/jstor-labs/iiif-example/ginevra-de-benci?layout=vtl))
+[Ginevra de' Benci](https://dev.visual-essays.app/essay/jstor-labs/iiif-example/ginevra-de-benci)
 
 ## Annotations
 

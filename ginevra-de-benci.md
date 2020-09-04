@@ -1,12 +1,19 @@
 <a href="https://dev.visual-essays.app/essay/jstor-labs/iiif-example/ginevra-de-benci"><img src="https://jstor-labs.github.io/visual-essays/images/ve-button.png"></a>
 
+<param ve-config banner="https://free.iiifhosting.com/iiif/a50b36d92153db8db436cff50ab37345ad482823e756d48585829e9a20cdc2c3/pct:0,52,100,38/full/0/default.jpg" layout="vtl" title="Ginevra de' Benci" author="Leonardo da Vinci">
+
+<param ve-entity title="Florence" eid="Q2044" aliases="florentine">
+<param ve-entity title="Ginevra de' Benci" eid="Q3494135">
+<param ve-entity title="Leonardo da Vinci" eid="Q762">
+
 # Ginevra de' Benci
  
  <param ve-image iiif primary manifest="manifests/Ginevra_de_Benci-iiifhosting.json">
  
- Ginevra de' Benci is a portrait painting by Leonardo da Vinci of the 15th-century Florentine aristocrat Ginevra de' Benci (born c.  1458).[^1] The oil-on-wood portrait was acquired by the National Gallery of Art in Washington, D.C. in 1967. The sum of US$5 million—an absolute record price at the time—came from the Ailsa Mellon Bruce Fund and was paid to the Princely Family of Liechtenstein. It is the only painting by Leonardo on public view in the Americas.[^2]
+ <span eid="Q1267893">Ginevra de' Benci</span> is a portrait painting by Leonardo da Vinci of the 15th-century Florentine aristocrat <span eid="Q3494135">Ginevra de' Benci</span> (born c.  1458).[^1] The oil-on-wood portrait was acquired by the National Gallery of Art in Washington, D.C. in 1967. The sum of US$5 million—an absolute record price at the time—came from the Ailsa Mellon Bruce Fund and was paid to the Princely Family of Liechtenstein. It is the only painting by Leonardo on public view in the Americas.[^2]
 
 Ginevra de' Benci, a well-known young Florentine woman, is universally considered to be the portrait's sitter. Leonardo painted the portrait in Florence between 1474 and 1478, possibly to commemorate Ginevra's marriage to Luigi di Bernardo Niccolini at the age of 16. More likely, it commemorates the engagement. Commonly, contemporary portraits of females were commissioned for either of two occasions: betrothal or marriage. Wedding portraits traditionally were created in pairs, with the woman on the right, facing left; since this portrait faces right, it more likely represents betrothal.[^3]
+<param ve-map prefer-geojson center="Q2044" zoom="7" basemap="Stamen_TerrainBackground">
 
 The juniper bush that surrounds Ginevra's head and fills much of the background, serves more than mere decorative purposes. In Renaissance Italy, the juniper was regarded a symbol of female virtue, while the Italian word for juniper, ginepro, also makes a play on Ginevra's name.[^4] The imagery and text on the reverse of the panel further support the identification of this picture. The reverse is decorated with a juniper sprig encircled by a wreath of laurel and palm and is memorialized by the phrase Virtvtem Forma Decorat ("Virtue Adorns Beauty").
  <param ve-image iiif manifest="manifests/Ginevra_de_Benci-reverse.json">
@@ -16,7 +23,7 @@ The Latin motto Virtvtem Forma Decorat on the reverse of the portrait, is unders
 
 The portrait is one of the highlights of the National Gallery of Art, and is admired by many for its portrayal of Ginevra's temperament. Ginevra is beautiful, but austere; she has no hint of a smile and her gaze, although forward, seems indifferent to the viewer.[^5]
 
-At some point, the bottom of the painting was removed, presumably owing to damage, and Ginevra's arms and hands are thought to have been lost.[^6] Using the golden section, Susan Dorothea White has drawn an interpretation of how her arms and hands may have been positioned in the original.[^7] The adaptation is based on drawings of hands by Leonardo thought to be studies for this painting.
+At some point, the bottom of the painting was removed, presumably owing to damage, and Ginevra's arms and hands are thought to have been lost.[^6] Using the golden section, Susan Dorothea White has drawn [an interpretation](http://www.susandwhite.com.au/enlarge.php?workID=162) of how her arms and hands may have been positioned in the original.[^7] The adaptation is based on drawings of hands by Leonardo thought to be studies for this painting.
 
 ## References
 
