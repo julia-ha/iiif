@@ -1,8 +1,11 @@
 # IIIF resources and examples
 
+This repository and README provides an aggregation of various IIIF related links and resources for working with IIIF in JSTOR Labs projects. 
+
 ## Resources
 
 ### Specifications
+
 - **IIIF Presentation** ([2.1.1](https://iiif.io/api/presentation/2.1/)) ([3.0](https://iiif.io/api/presentation/3.0/))
 - **IIIF Image** ([2.1.1](https://iiif.io/api/image/2.1/)) ([3.0](https://iiif.io/api/image/3.0/))
 - **W3C** [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/) and [protocol](https://www.w3.org/TR/annotation-protocol/)
@@ -25,8 +28,11 @@
 - [awesome-iiif](https://github.com/IIIF/awesome-iiif) - A list of lists of awesome IIIF resources
 - [kanzaki](https://www.kanzaki.com/) - Some great [IIIF examples](https://www.kanzaki.com/works/2016/pub/image-annotator) and demos by [Masahide Kanzaki](https://www.kanzaki.com/info/who)
 - [IIIF manifest validator](https://iiif.io/api/presentation/validator/service/)
+- [Storiiies](https://storiiies.cogapp.com/) - Experiments in digital storytelling, By Cogapp
 
 ## IIIF Presentation Manifest examples
+
+This section includes some manually generated IIIF manifests.  One example shows how a presentation manifest can be created/used without using an IIIF image server.  For many images of small-to-modest size this is a viable option.  The other examples use IIIF image servers for generating/serving deep zoom versions of the images.  The use of a 3rd party commercial image server the JSTOR Labs self-hosted image server are shown in the examples. 
 
 ### v2.1.1
 
@@ -40,7 +46,9 @@ TODO
 
 ## Visual essay example
 
-Use of IIIF manifests in a JSTOR Labs [visual essay](https://dev.visual-essays.app/essay/jstor-labs/iiif-example/ginevra-de-benci) using the Wikimedia Commons Ginevra de' Benci image.
+This [visual essay example](https://dev.visual-essays.app/essay/jstor-labs/iiif-example/ginevra-de-benci) demonstrates the use of an IIIF manifest (using the Wikimedia Commons Ginevra de' Benci image) in an interactive web page.  This visual essay demo incorporates image annotations served from the Labs annotation server and also shows a few other visual essay features such as the use of maps and Linked Open Data (LOD) from [Wikidata](https://www.wikidata.org).
+
+The visual essay tool uses a Vue.js single file component that can be seen at [OpenSeadragonViewer.vue](https://github.com/JSTOR-Labs/ve-components/blob/develop/components/ImageViewer/OpenSeadragonViewer.vue).  This component uses OpenSeadragon with the Annatorious plugin.  Annotations can be created, updated and deleted from within the tool.  The component also incorporates an annotations navigation tool (inspired by the [Storiiies](https://storiiies.cogapp.com/) site).
 
 - [Visual essay Markdown source](ginevra-de-benci.md) ([raw](https://raw.githubusercontent.com/JSTOR-Labs/iiif-example/develop/ginevra-de-benci.md))
 
