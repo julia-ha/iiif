@@ -17,7 +17,7 @@ This repository and README provides an aggregation of various links and resource
 - [Universal Viewer](https://universalviewer.io/) - IIIF viewer
 - [OpenSeadragon](https://openseadragon.github.io/) - Image viewer javascript library, not IIIF specific
 - [Annatorious](https://recogito.github.io/annotorious/) ([Github](https://github.com/recogito/annotorious))- Annotation tool for generating annotations compatible with [W3C Web Annotation Data Model](https://www.w3.org/TR/annotation-model/) and [Protocol](https://www.w3.org/TR/annotation-protocol/)
-- [iiifhosting.com](https://www.iiifhosting.com/) - Provides IIIF image hosting services.  A limited free option is available with tiered premium levels.  This service is currently used by an experimental version of an automated manifest generation service in use by JSTOR Labs.
+- [iiifhosting.com](https://www.iiifhosting.com/) - Provides IIIF image hosting services.  A limited free option is available with optional tiered premium levels available.  This service is currently used by an experimental version of an automated manifest generation service in use by JSTOR Labs.
 
 ### APIs
 
@@ -148,7 +148,11 @@ JSTOR Labs has also created a service for generating and storing manifests.
 
 #### Labs IIIF service (option 2)
 
-*Post JSON document to:* `https://iiif-v2.visual-essays.app/manifest/`
+This version of the JSTOR Labs IIIF manifest generation service uses the [iiifhosting.com](https://www.iiifhosting.com/) IIIF hosting service to generate/serve the IIIF tiled images.  A [cloud-based MongoDB instance](https://cloud.mongodb.com/) and [custom server](https://github.com/JSTOR-Labs/ve-images) is used to generate, store, and deliver the manifests.  The service currently supports version 2.1.1 of the presentation manifest API.
+
+This service uses a simplified JSON request document format consisting of an arbitray number of key-value pairs.  The `url` property is the only required property.  Other properties provided in the request will be included in the top-level `metadata` manifest block and added as top-level manifest properties as defined in the 2.1.1 API document (for instance, for `label`, `description`, `attribution`, and `license`).
+
+*Post JSON document to:* `https://iiif-v2.visual-essays.app/manifest/`  
 *General request document structure:*
 ```json
 {
